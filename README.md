@@ -5,7 +5,7 @@
 ## Team Member
  - Xin Xanovich
  - Steven Friend
- - Otto Brook
+ - Otto Brookes
  - Astrid Lin
  - JiaZhen Jiang
  - Nicola Wang
