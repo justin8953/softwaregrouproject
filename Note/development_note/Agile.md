@@ -21,7 +21,7 @@
   3. Feedback
   4. Courage
   5. Respect
- ` Looking more at the Link in Wiki `
+  **Looking more at the Link in Wiki** 
 2. [Scrum: incremental](https://www.cprime.com/resources/what-is-agile-what-is-scrum/)
  - Categories
   1. Role, Artifacts and Time
