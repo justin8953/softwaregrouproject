@@ -2,7 +2,7 @@
 Class note and Online resource 
 
 
-### Agile Method
+### Agile Method [Edited by Justin 11 Feb 2019 ]
 
 1. [XP : Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming)
  - Goal
@@ -29,14 +29,14 @@ Class note and Online resource
   1. Role, Artifacts and Time
 3. [UP: the Unified Process](https://en.wikipedia.org/wiki/Unified_Process)
 
-### Programming Principles
+### Programming Principles [Edited by Justin 11 Feb 2019 ]
 
 1. Take small steps
 2. Using OO design
 3. Make classes bullet-proof
 4. Keep your code DRY (Don't Repeat Yourself)
 
-### Programming Tech
+### Programming Tech [Edited by Justin 11 Feb 2019 ]
 1. Automated Testing 
 2. Refactoring
 3. KISS Design 
