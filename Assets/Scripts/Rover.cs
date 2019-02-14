@@ -13,10 +13,16 @@ public class Rover : MonoBehaviour
     private bool begin = true;
     public float moveVelocity;
 
+    public AudioClip fuelcellsound;
+    private AudioSource source;
+    private float volLowRange = .5f;
+    private float volHighRange = 1.0f;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -54,7 +60,7 @@ public class Rover : MonoBehaviour
     	}
     	distance = Vector3.Distance(initialPos, rb.position);
     	if(distance < 1f) {
-    		rb.velocity += Vector3.forward * moveVelocity * Time.deltaTime;
+    		rb.velocity += Vector3.right * moveVelocity * Time.deltaTime;
     		Debug.Log(distance);
     	} else {
     		begin = true;
@@ -62,6 +68,16 @@ public class Rover : MonoBehaviour
     		distance = 0;
     		rb.velocity = Vector3.zero;
     	}	
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Pick Up"))
+        {
+            float vol = Random.Range(volLowRange, volHighRange);
+            source.Play();
+            other.gameObject.SetActive(false);
+        }
     }
 
 }
