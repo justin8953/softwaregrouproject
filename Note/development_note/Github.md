@@ -35,6 +35,11 @@
       ``` 
       - Cloing an existing repository
       ` git clone <repo url> `
+      - `git clone` verus `git init`
+        - both can be used to initialise a new repository. 
+        - `git clone` is dependent on `git initi`
+        - `git clone` first calls `git init` to create a new repository. 
+           It then copies the data from the existing repository, and checks out a new set of working files.
    - Saving changes to the repository
       - Steps
          1. Change directiories to `/path/to/project`
@@ -56,7 +61,7 @@
             1. Define the author name to be used for all commits
             `git config --global user.name <name>`
             2. Define the author email to be used for all commits ( --local option or not passing a config level option at all)
-            `git config --local user.email <email>`
+            `git config --global user.email <email>`
 
       
 
