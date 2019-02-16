@@ -70,8 +70,16 @@
           - The three dot operator initiates the diff by changing the first input parameter branch1. 
         - `git diff master new_branch ./diff_test.txt`: Comparing files from two branches
     
-    - Git stash
-
+    - [Git stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
+      - `git stash`: takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
+      - Re-applying your stashed changes
+        -`git stash pop` :Popping your stash removes the changes from your stash and reapplies them to your working copy
+        -` git stash apply` : Reapply the changes to your working copy and keep them in your stash
+        - Adding the `-u` option (or `--include-untracked`) tells git stash to also stash your untracked files:
+        - `git stash list`
+        - ` git stash save "message":`
+        - `git stash show` :Viewing stash diffs
+        - `git stash drop stash@{1}` or `git stash clean `: cleaning up your stash
 
     - Ex.
       ```
