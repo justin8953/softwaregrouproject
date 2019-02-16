@@ -26,7 +26,7 @@
         - in support for various kinds of nonlinear development workflow, in its efficiency in both small and large projects and in its compatibility with many existing systems and protocols.
 
 ### Basic Usage
-#### 1. Setting up a repository **Need to Understand**
+#### 1. Setting up a repository (**Need to Understand**)
   - Initialising a new repository 
     - Versioning an existing project with a new git repository [Advanced Topic `git bare`](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init)
     ```
@@ -41,12 +41,12 @@
     - `git clone` first calls `git init` to create a new repository. It then copies the data from the existing repository, and checks out a new set of working files.
 
 #### 2. Saving changes to the repository
-  - Steps **Need to Understand**
+  - Steps (**Need to read**)
     1. Change directories to `/path/to/project`
     2. `git add` the file to the repository staging area
     3. Create a new commit with a message
   - `git add` and `git commit` commands mean to record versions of a project into the repository's history
-  - Git add **Need to Understand**
+  - Git add (**Need to read**)
     - The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.
     - Staging area
       - it can be a buffer between the working directory and the project history.
@@ -54,7 +54,7 @@
     - Common options
       - `git add <file>`
       - `git add <directory>`
-  - Git commit **Need to Understand**
+  - Git commit (**Need to read**)
     -  Commits can be thought of as snapshots or milestones along the timeline of a Git project. 
     - Common option
       - `git commit -a` : Commit a snapshot of all changes in the working directory. This only includes modifications to tracked files
@@ -87,7 +87,7 @@
     ```
 
 #### 3. Inspecting a repository
-  - `git status` : command displays the state of the working directory and the staging area. **Need to Understand**
+  - `git status` : command displays the state of the working directory and the staging area. (**Need to read**)
     - Status output does not show you any information regarding the committed project history. you need to use `git log`.
   - `git tag`: used to capture a point in history that is used for a marked version release [**More Usage See Here**](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
   - `git blame`: This is used to explore the history of specific code and answer questions about what, how, and why the code was added to a repository.
@@ -119,7 +119,7 @@
 
 
 #### 6. [Repo-to-repo collaboration](https://www.atlassian.com/git/tutorials/syncing)
-  - Configuration & Set up **Need to Understand**
+  - Configuration & Set up (**Need to read**)
     - Once you have a remote repo setup, you will need to add a remote repo url to local git config
     `git remote add <remote_name> <remote_repo_url>`
     - Once you mapped the remote repo you can push local branches
