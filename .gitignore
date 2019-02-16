@@ -15,7 +15,8 @@
 .gradle/
 # Plugins file
 Assets/Plugins/
-*.Plugins.meta
+
+Plugins.meta
 
 # System File
 *.DS_Store
