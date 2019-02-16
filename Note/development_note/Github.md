@@ -124,6 +124,21 @@ When you open the files for a project that is being managed as a Git repository 
   |`*.log !important.log`              | debug.log or trace.log |
   |`*.log !important.log/*.log trace.*`| debug.log or important/trace.log |
 
+  - **Ignore previously committed file**
+  ``` 
+    git rm --cached debug.log
+    git commit -m "Start ignoring debug.log"
+  ```
+  - **Committing an ignored file** (-f Force to add)
+  ```
+    git add -f debug.log
+    git commit -m "Force adding debug.log"
+  ```
+  - **Debugging .gitignore files**
+   - `git check-ignore -v debug.log`
+   - output: `<file containing the pattern> : <line number of the pattern> : <pattern> <file name>`
+
+
 
 ### Github issue
 1. [History Different](https://medium.com/@kihoonkang/git-master-and-branch-name-are-entirely-different-commit-histories-fda3bf37bd2)
