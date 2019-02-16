@@ -106,6 +106,23 @@
 When you open the files for a project that is being managed as a Git repository then you are access the Working Tree. 
 
 ### [.gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+#### 1.File ignored
+  - **dependency caches**, such as the contents of /node_modules or /packages
+  - **compiled code** , such as .o, .pyc, and .class files
+  - **build output directories**, such as /bin, /out, or /target
+  - **files generated at runtime**, such as .log, .lock, or .tmp
+  - **hidden system files**, such as .DS_Store or Thumbs.db
+  - **personal IDE config files**, such as .idea/workspace.xml
+
+#### 2. Patterns
+  - globbing patterns [**More patterns see here**](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+  |Pattern                             | Example                |
+  |:---                                | :---:                  | 
+  |`**/logs`                           | logs/debug.log         | 
+  |`**/logs/debug.log`                 | build/logs/debug.log   |
+  |`*.log`                             | debug.log or .log      |
+  |`*.log !important.log`              | debug.log or trace.log |
+  |`*.log !important.log/*.log trace.*`| debug.log or important/trace.log |
 
 
 ### Github issue
