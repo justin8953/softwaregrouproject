@@ -26,7 +26,7 @@
         - in support for various kinds of nonlinear development workflow, in its efficiency in both small and large projects and in its compatibility with many existing systems and protocols.
 
 ### Basic Usage
-####1. Setting up a repository
+#### 1. Setting up a repository
   - Initialising a new repository 
     - Versioning an existing project with a new git repository [Advanced Topic `git bare`](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init)
     ```
@@ -40,7 +40,7 @@
     - `git clone` is dependent on `git initi`
     - `git clone` first calls `git init` to create a new repository. It then copies the data from the existing repository, and checks out a new set of working files.
 
-####2. Saving changes to the repository
+#### 2. Saving changes to the repository
   - Steps
     1. Change directories to `/path/to/project`
     2. `git add` the file to the repository staging area
@@ -86,7 +86,7 @@
     git commit -m "add test.c"
     ```
 
-####3. Repo-to-repo collaboration
+#### 3. Repo-to-repo collaboration
   - Configuration & Set up
     - Once you have a remote repo setup, you will need to add a remote repo url to local git config
     `git remote add <remote_name> <remote_repo_url>`
@@ -104,5 +104,9 @@
   - Any changes to the Working Tree are noted by the Index, and show up as modified files.
 
 When you open the files for a project that is being managed as a Git repository then you are access the Working Tree. 
+
+### [.gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+
+
 ### Github issue
 1. [History Different](https://medium.com/@kihoonkang/git-master-and-branch-name-are-entirely-different-commit-histories-fda3bf37bd2)
