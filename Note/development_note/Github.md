@@ -148,13 +148,14 @@ When you open the files for a project that is being managed as a Git repository 
 
 #### 2. Patterns
   - globbing patterns [**More patterns see here**](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
-  |Pattern                             | Example                |
-  |:---                                | :---:                  | 
-  |`**/logs`                           | logs/debug.log         | 
-  |`**/logs/debug.log`                 | build/logs/debug.log   |
-  |`*.log`                             | debug.log or .log      |
-  |`*.log !important.log`              | debug.log or trace.log |
-  |`*.log !important.log/*.log trace.*`| debug.log or important/trace.log |
+
+  | Pattern                             | Example                |
+  | :---                                | :---:                  | 
+  | `**/logs`                           | logs/debug.log         | 
+  | `**/logs/debug.log`                 | build/logs/debug.log   |
+  | `*.log`                             | debug.log or .log      |
+  | `*.log !important.log`              | debug.log or trace.log |
+  | `*.log !important.log/*.log trace.*`| debug.log or important/trace.log |
 
   - **Ignore previously committed file**
   ``` 
