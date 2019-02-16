@@ -62,8 +62,17 @@
     - Git diff
       - Comparing changes with `git diff`
       - The git diff command is often used along with git status and git log to analyze the current state of a Git repo.
-      - Comparison input: `diff --git a/diff_test.txt b/diff_test.txt`
-      
+      - **Highlighting changes**
+        - `git diff --color-words`
+        - `git diff`: By default git diff will show you any uncommitted changes since the last commit.
+        - `git diff branch1..other-feature-branch`: Comparing two branches
+          - The two dots in this example indicate the diff input is the tips of both branches. 
+          - The three dot operator initiates the diff by changing the first input parameter branch1. 
+        - `git diff master new_branch ./diff_test.txt`: Comparing files from two branches
+    
+    - Git stash
+
+
     - Ex.
       ```
       cd /path/to/project
