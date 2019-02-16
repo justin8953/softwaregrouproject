@@ -86,7 +86,39 @@
     git commit -m "add test.c"
     ```
 
-#### 3. Repo-to-repo collaboration
+#### 3. Inspecting a repository
+  - `git status` : command displays the state of the working directory and the staging area.
+    - Status output does not show you any information regarding the committed project history. you need to use `git log`.
+  - `git tag`: used to capture a point in history that is used for a marked version release [**More Usage See Here**](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
+  - `git blame`: This is used to explore the history of specific code and answer questions about what, how, and why the code was added to a repository.
+  [**More usage see here**](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-blame)
+  - `git log`: It lets you list the project history, filter it, and search for specific changes. 
+    - Usage [**More Usage See Here**](https://www.atlassian.com/git/tutorials/inspecting-a-repository)
+     - `git log -n 3` : git log -n 3 will display only 3 commits.
+
+#### 4. [Undoing Changes](https://www.atlassian.com/git/tutorials/undoing-changes)
+  - `git checkout`
+  - `git clean`
+  - `git revert`
+  - `git reset`
+  - `git rm`
+
+#### 5. Rewriting History
+  - `git commit --amend`
+    - It lets you combine staged changes with the previous commit instead of creating an entirely new commit. 
+    - amending does not just alter the most recent commit, it replaces it entirely, meaning the amended commit will be a new entity with its own ref. 
+    - `git commit --amend -m "an updated commit message"`
+    - **Don’t amend public commits**
+      - Amended commits are actually entirely new commits and the previous commit will no longer be on your current branch. 
+  - `git rebase`: Changing older or multiple commits [See more here](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
+    - Rebasing is the process of moving or combining a sequence of commits to a new base commit. 
+    - Rebasing is most useful and easily visualized in the context of a feature branching workflow. 
+  - `git reflog`: The safety net
+    - Reflog allows you to go back to commits even though they are not referenced by any branch or tag.
+
+
+
+#### 6. Repo-to-repo collaboration
   - Configuration & Set up
     - Once you have a remote repo setup, you will need to add a remote repo url to local git config
     `git remote add <remote_name> <remote_repo_url>`
