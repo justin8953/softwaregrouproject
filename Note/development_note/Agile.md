@@ -44,12 +44,6 @@ Class note and Online resource
  - [Git](https://www.atlassian.com/git/tutorials)
 5. Continuous Integration
 
-<<<<<<< HEAD
-
-
-
-
-=======
 ### Github issue
 1. [History Different](https://medium.com/@kihoonkang/git-master-and-branch-name-are-entirely-different-commit-histories-fda3bf37bd2)
->>>>>>> e83e32f73c3bc5b1a54ddc22891962a617403f69
+
