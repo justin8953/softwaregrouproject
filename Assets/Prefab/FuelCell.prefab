@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7300540277687668805}
   - component: {fileID: 7300540277687668806}
   - component: {fileID: 7300540277687668807}
-  - component: {fileID: 5832218141652735048}
+  - component: {fileID: 2781651242135659491}
   m_Layer: 0
   m_Name: FuelCell
   m_TagString: Pick Up
@@ -110,7 +110,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5832218141652735048
+--- !u!114 &2781651242135659491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,6 +119,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7300540277687668808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6faeb000e180d0b48a54d96b94b63ca1, type: 3}
+  m_Script: {fileID: 11500000, guid: 762c5a833ef2786408048e8cbcc55f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuelcellsound: {fileID: 8300000, guid: 3311e3a01cea14b76aa66fc30e081eca, type: 3}
+  source: {fileID: 0}
