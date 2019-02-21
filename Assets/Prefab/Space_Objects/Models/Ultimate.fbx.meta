@@ -1,61 +1,79 @@
 fileFormatVersion: 2
-guid: adff5a34c880d4a1899b4b0bc05f4db2
+guid: cc741c5b9a02e4fe99123077b7fdba7a
+timeCreated: 1497103594
+licenseType: Store
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: Cube.005
-    100002: Cylinder.000
-    100004: Cylinder.009
-    100006: Cylinder.012
-    100008: //RootNode
+    100002: Cylinder.009
+    100004: Cylinder.012
+    100006: Empty
+    100008: Turret.001
+    100010: //RootNode
+    100012: Cube.000
+    100014: Cylinder.001
+    100016: Cylinder.002
+    100018: Cylinder.003
+    100020: Cylinder.000
     400000: Cube.005
-    400002: Cylinder.000
-    400004: Cylinder.009
-    400006: Cylinder.012
-    400008: //RootNode
-    2100000: Turbine_Ultra_wings_i
-    2100002: Turbine_Ultra_wings
-    2100004: Turbine_Ultra
-    2100006: Turbine_Ultra_Outer
+    400002: Cylinder.009
+    400004: Cylinder.012
+    400006: Empty
+    400008: Turret.001
+    400010: //RootNode
+    400012: Cube.000
+    400014: Cylinder.001
+    400016: Cylinder.002
+    400018: Cylinder.003
+    400020: Cylinder.000
     2300000: Cube.005
-    2300002: Cylinder.000
-    2300004: Cylinder.009
-    2300006: Cylinder.012
+    2300002: Cylinder.009
+    2300004: Cylinder.012
+    2300006: Turret.001
+    2300008: Cube.000
+    2300010: Cylinder.001
+    2300012: Cylinder.002
+    2300014: Cylinder.003
+    2300016: Cylinder.000
     3300000: Cube.005
-    3300002: Cylinder.000
-    3300004: Cylinder.009
-    3300006: Cylinder.012
-    4300000: Cylinder.000
-    4300002: Cylinder.009
+    3300002: Cylinder.009
+    3300004: Cylinder.012
+    3300006: Turret.001
+    3300008: Cube.000
+    3300010: Cylinder.001
+    3300012: Cylinder.002
+    3300014: Cylinder.003
+    3300016: Cylinder.000
+    4300000: Cylinder.009
+    4300002: Turret.001
     4300004: Cylinder.012
     4300006: Cube.005
-  externalObjects: {}
+    4300008: Cube.000
+    4300010: Cylinder.003
+    4300012: Cylinder.002
+    4300014: Cylinder.001
+    4300016: Cylinder.000
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -63,38 +81,25 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -106,8 +111,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   humanoidOversampling: 1
